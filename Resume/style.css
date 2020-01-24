@@ -1,84 +1,112 @@
-body{
+body {
     margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
 }
 
 /* Body Header */
-#body-header{
-    height: 60vh;
-    background-image: url(static/backflower.jpg);
-    background-size:cover;
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
+    padding-top: 1.2rem;
 }
+
 /* Horizontal Lists */
-.horizontal-list{
+
+.horizontal-list {
     list-style: none;
     padding-left: 0px;
+    margin: 0px;
 }
-.horizontal-list li{
-    display:inline-block;
+
+.horizontal-list li {
+    display: inline-block;
     margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
 }
-.horizontal-list li a{
-    color: rgb(226, 43, 150);
-    font-size: 3vh;
-    font-style:italic;
-    font-weight: bolder;
+
+
+.horizontal-list li a {
+    color: white;
     text-decoration: none;
-    
 }
-.horizontal-list li a:hover{
-    color: blueviolet;
-    text-decoration: underline;
-    transition: color 5s,text-decoration 4s;
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
 }
-.text-center{
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.text-center {
     text-align: center;
 }
 
-/* Header center name  and Social icons*/
+/* Name and Social Icons*/
 
-#header-name{
+#name-social-container {
     margin-top: 20vh;
-    letter-spacing: 0.1rem;
-    color: rgba(0, 47, 255, 0.301);
-    font-weight:700;
+}
+
+#my-name {
     font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
 }
-#header-name h1{
-    margin-bottom: 0px;
-}
-#header-name ul{
-    margin-top: 0;
-    margin-left: -20px;
-}
-#header-name ul li{
-    display: inline-block;
-}
-#header-name ul li a img{
-    border-radius: 50%;
+
+
+.social-icons li a i {
+    /*color: red;*/
     padding: 10px;
-}
-#header-name ul li a img:hover{
-    box-shadow: -5px 0px 6px 4px red;
-
-}
-
-/* About Section */
-
-#about{
-    width: 100%;
-    height: auto;
-}
-#about #my-profile-img img{
-    width: 16rem;
-    height: 16rem;
-    background-size: contain;
+    font-size: 1rem;
     border-radius: 50%;
-    margin-top: -122px;
+}
 
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/*About Section*/
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: -14vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+#about-para-div{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
 }
 #about-para{
-    
+    text-shadow:lightgrey;
+    color: grey;
+}
+#about-para span{
+    color: #2857a4;
 }
