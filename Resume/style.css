@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+}
+
+/* Body Header */
+#body-header{
+    height: 60vh;
+    background-image: url(static/backflower.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+/* Horizontal Lists */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+}
+.horizontal-list li{
+    display:inline-block;
+    margin: 0px 8px 8px 0px;
+}
+.horizontal-list li a{
+    color: rgb(226, 43, 150);
+    font-size: 3vh;
+    font-style:italic;
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
+.horizontal-list li a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+    transition: color 5s,text-decoration 4s;
+}
+.text-center{
+    text-align: center;
+}
+
+/* Header center name  and Social icons*/
+
+#header-name{
+    margin-top: 20vh;
+    letter-spacing: 0.1rem;
+    color: rgba(0, 47, 255, 0.301);
+    font-weight:700;
+    font-size: 3rem;
+}
+#header-name h1{
+    margin-bottom: 0px;
+}
+#header-name ul{
+    margin-top: 0;
+    margin-left: -20px;
+}
+#header-name ul li{
+    display: inline-block;
+}
+#header-name ul li a img{
+    border-radius: 50%;
+    padding: 10px;
+}
+#header-name ul li a img:hover{
+    box-shadow: -5px 0px 6px 4px red;
+
+}
+
+/* About Section */
+
+#about{
+    width: 100%;
+    height: auto;
+}
+#about #my-profile-img img{
+    width: 16rem;
+    height: 16rem;
+    background-size: contain;
+    border-radius: 50%;
+    margin-top: -122px;
+
+}
+#about-para{
+    
+}
