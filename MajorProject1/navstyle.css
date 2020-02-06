@@ -1,0 +1,10 @@
+nav{
+    display: inline-block;    
+}
+#img1{
+    height: 7vh;
+    width: 4vw;
+}
+#fav{
+    margin-left: 10%;
+}
